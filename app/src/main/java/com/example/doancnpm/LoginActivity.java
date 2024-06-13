@@ -1,11 +1,8 @@
 package com.example.doancnpm;
 
-import androidx.annotation.ColorInt;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 
 import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.text.SpannableString;
 import android.text.Spanned;
@@ -17,12 +14,12 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.login_activity);
 
         TextView tV_sign_up = findViewById(R.id.tV_sign_up);
 
